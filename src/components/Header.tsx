@@ -20,14 +20,11 @@ export const Header: React.FC<HeaderProps> = ({
   }, {
     name: 'About',
     page: 'about'
-  }, {
-    name: 'Contact',
-    page: 'contact'
   }];
   return <header className="sticky top-0 bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 z-10">
       <div className="container mx-auto flex justify-between items-center h-16 px-4">
         <button onClick={() => navigateTo('home')} className="font-bold text-xl">
-          TechBytes
+          Michael Torku
         </button>
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">

@@ -1,10 +1,10 @@
 import React from 'react';
 export const AboutSection = () => {
   return <div>
-      <h1 className="text-3xl font-bold mb-6">About TechBytes</h1>
+      <h1 className="text-3xl mb-6">About </h1>
       <div className="prose dark:prose-invert max-w-none">
         <p className="mb-4">
-          TechBytes is a blog dedicated to sharing knowledge about web
+          Michael Torku is a blog dedicated to sharing knowledge about web
           development, programming, and technology. Our goal is to provide
           clear, concise, and practical articles that help developers improve
           their skills and stay up-to-date with the latest trends in the tech
@@ -25,12 +25,12 @@ export const AboutSection = () => {
             </div>
           </div>
           <div>
-            <h3 className="text-xl font-bold">Alex Chen</h3>
+            <h3 className="text-xl font-bold">Michael Torku</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-2">
               Frontend Developer
             </p>
             <p className="mb-4">
-              Alex is a frontend developer with 5+ years of experience building
+              Michael is a frontend developer with 5+ years of experience building
               web applications. He specializes in React, TypeScript, and modern
               JavaScript frameworks. When not coding, Alex enjoys writing
               technical articles to share his knowledge with the community.
@@ -42,9 +42,9 @@ export const AboutSection = () => {
           Have a question or suggestion? Feel free to reach out:
         </p>
         <ul className="list-disc pl-6 mb-6">
-          <li>Email: alex@techbytes.com</li>
-          <li>Twitter: @techbytes</li>
-          <li>GitHub: github.com/techbytes</li>
+          <li>Email: [firstname][lastname]5@gmail.com</li>
+          <li>Twitter: @mtorkuMT</li>
+          <li>GitHub: github.com/michaeltorku</li>
         </ul>
       </div>
     </div>;

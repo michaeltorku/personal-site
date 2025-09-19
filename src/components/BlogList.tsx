@@ -8,7 +8,6 @@ export const BlogList: React.FC<BlogListProps> = ({
 }) => {
   return <div>
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">TechBytes</h1>
         <p className="text-gray-600 dark:text-gray-400">
           A collection of articles on web development, programming, and
           technology.

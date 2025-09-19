@@ -4,7 +4,7 @@ import { BlogList } from './components/BlogList';
 import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { AboutSection } from './components/AboutSection';
-import { ContactSection } from './components/ContactSection';
+
 export function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [currentPage, setCurrentPage] = useState<string>('home');
@@ -39,11 +39,10 @@ export function App() {
   };
   return <div className="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 min-h-screen transition-colors duration-300">
       <Header theme={theme} toggleTheme={toggleTheme} currentPage={currentPage} navigateTo={navigateTo} />
-      <main className="container mx-auto px-4 py-8 max-w-4xl">
+      <main className="container mx-auto px-4 py-8 max-w-4xl">        
         {currentPage === 'home' && <BlogList navigateTo={navigateTo} />}
         {currentPage === 'post' && currentPostId && <BlogPost postId={currentPostId} />}
         {currentPage === 'about' && <AboutSection />}
-        {currentPage === 'contact' && <ContactSection />}
       </main>
       <Footer />
     </div>;
