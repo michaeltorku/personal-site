@@ -9,8 +9,8 @@ export const BlogList: React.FC<BlogListProps> = ({
   return <div>
       <div className="mb-8">
         <p className="text-gray-600 dark:text-gray-400">
-          A collection of articles on web development, programming, and
-          technology.
+          Things I build. Things I find interesting. 
+          Opinions I stand by, not ones that you should.
         </p>
       </div>
       <div className="space-y-8">

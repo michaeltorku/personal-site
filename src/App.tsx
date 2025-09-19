@@ -4,6 +4,7 @@ import { BlogList } from './components/BlogList';
 import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { AboutSection } from './components/AboutSection';
+import { ProjectList } from './components/ProjectList';
 
 export function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -43,6 +44,8 @@ export function App() {
         {currentPage === 'home' && <BlogList navigateTo={navigateTo} />}
         {currentPage === 'post' && currentPostId && <BlogPost postId={currentPostId} />}
         {currentPage === 'about' && <AboutSection />}
+        {currentPage === 'projects' && <ProjectList />}
+
       </main>
       <Footer />
     </div>;
