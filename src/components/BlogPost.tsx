@@ -19,13 +19,15 @@ export const BlogPost: React.FC<BlogPostProps> = ({
   const formatContent = (content: string) => {
     // This is a very simplified markdown parser
     // In a real app, you'd use a proper markdown library
-    let formatted = content
+    const formatted = content
     // Headers
     .replace(/^# (.*$)/gm, '<h1 class="text-3xl font-bold mt-6 mb-4">$1</h1>').replace(/^## (.*$)/gm, '<h2 class="text-2xl font-bold mt-6 mb-3">$1</h2>').replace(/^### (.*$)/gm, '<h3 class="text-xl font-bold mt-5 mb-2">$1</h3>')
     // Code blocks
     .replace(/```([^`]+)```/g, '<pre class="bg-gray-100 dark:bg-gray-800 p-4 rounded-md my-4 overflow-x-auto"><code>$1</code></pre>')
     // Inline code
     .replace(/`([^`]+)`/g, '<code class="bg-gray-100 dark:bg-gray-800 px-1 py-0.5 rounded">$1</code>')
+    // Bold text
+    .replace(/\*\*([^*]+)\*\*/g, '<strong class="font-bold">$1</strong>')
     // Lists (simplified)
     .replace(/^\d+\. (.*$)/gm, '<li class="ml-6 list-decimal">$1</li>').replace(/^- (.*$)/gm, '<li class="ml-6 list-disc">$1</li>')
     // Paragraphs
