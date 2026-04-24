@@ -6,15 +6,18 @@ interface BlogListProps {
 export const BlogList: React.FC<BlogListProps> = ({
   navigateTo
 }) => {
+  const postsByRecency = [...blogPosts].sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
   return <div>
       <div className="mb-8">
-        <p className="text-gray-600 dark:text-gray-400">
+        <p className="text-base leading-relaxed text-gray-600 dark:text-gray-400">
           Things I build. Things I find interesting. 
           Opinions I stand by, not ones that you should.
         </p>
       </div>
       <div className="space-y-8">
-        {blogPosts.map(post => <article key={post.id} className="border-b border-gray-200 dark:border-gray-700 pb-8">
+        {postsByRecency.map(post => <article key={post.id} className="border-b border-gray-200 dark:border-gray-700 pb-8">
             <div className="flex flex-col space-y-2">
               <div className="flex items-center space-x-2 text-sm text-gray-500 dark:text-gray-400">
                 <span>{post.date}</span>
@@ -26,7 +29,9 @@ export const BlogList: React.FC<BlogListProps> = ({
                   {post.title}
                 </button>
               </h2>
-              <p className="text-gray-600 dark:text-gray-400">{post.excerpt}</p>
+              <p className="text-[1.02rem] leading-relaxed text-gray-600 dark:text-gray-400">
+                {post.excerpt}
+              </p>
               <div className="flex items-center pt-2">
                 <button onClick={() => navigateTo('post', post.id)} className="text-blue-600 dark:text-blue-400 hover:underline">
                   Read more →

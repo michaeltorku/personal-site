@@ -42,6 +42,59 @@ I've run tons of experiments on myself. So far, I know I like helping people (mo
     tags: ['Personal', 'Reflection', 'Career', 'Growth'],
     readTime: 5
   },
+  {
+    id: 'leaving-netflix',
+    title: 'Leaving Netflix',
+    date: 'December 2, 2025',
+    author: 'Michael Torku',
+    excerpt:
+      'From the internship offer call to saying goodbye two years later: why I left for a startup bet, what I learned about asymmetric upside, and what Netflix taught me about engineering and agency.',
+    content: `
+I remember receiving a phone call from Layne Austin in 2022 close to thanksgiving. Smiling ear to ear as she told me that I'd be receiving an offer to join Netflix, how excited the team was to have me and then reciting the many benefits I had already read over and over on the internet. Some days before this, I had an interview with my to be manager Charles Zhao at the end of which he mentioned he had enjoyed our chat and will be reaching out to HR to extend an internship offer. Every second between this day and that lasted 10. Scars of reddit threads roaming my mind convincing me that something could still go wrong even after Charles' assurance.
+
+Close to thanksgiving 2025, I'm only realizing as I write this, I started a slack huddle with my manager to explain why "I made the tough decision to leave Netflix." A decision I will dive into some more later in this piece. The two weeks that ensued was an emotional swing. Saying goodbye to some of the finest engineers and mentors I've had the opportunity to share technical problems with. To Aravindan, Anoop, Surafel, Christian, Ryan, Prashant, Akash and Jiaofen I'm grateful for the laughs we've shared and the lessons I've learnt. I recommend you all without reservation and I hope we have a chance to work together in the future. In every way it felt like I was betraying my team and manager and it was a very hard thing to do.
+
+It was hard because I had a good team that I was leaving and jumping into an unknown of new teammates and management and how interesting this new work would be etc. I still don't know if that was the right decision or not and there's not a real way to know is part of what makes it hard. I do know I'll be working for longer hours and across a wider axis and scope. To that effect I'm super thankful to Netflix for teaching me a lot about high caliber engineering at scale and the nuanced parts of the job I was more oblivious to like persuasion, alignment, sharing constructive feedback, expressing dissent effectively and how to contribute meaningfully to difficult and open-ended conversations which function independently of a right answer. And of course, I'm (perhaps just as) thankful for the great perks. The food, the money, the flexibility and the freedom to be unusually responsible.
+
+All this begs the question, why leave? Especially just at the two year mark. I was poached by my roommate to join a startup ([Basis.ai](https://www.getbasis.ai/)) in the accounting space. The money was good (we shall not index too much on that in this and future pieces, Amen). The framework surrounding the decision (likely deserving of its own piece) is that of an asymmetric bet. If you're unfamiliar, understand this as some risk-reward scenario having an extreme/unbounded potential upside for a hedged/limited downside. Take me having a blog for example, I don't necessarily think it to be one of my most exciting (or hip for that matter) things to do, but the potential **upside** here is
+
+- Writing forces clarity and/or clearer thought
+- I get practice on a valuable skill I will need at several points for texting, speeches, RFCs, memos etc
+- The blog is open to the world and becomes a beacon for people to learn about me and put me in the way of opportunities, other people I'd like to meet or I'm able to help and just general goodwill
+- It exists as a journey of my personal growth and important moments to look back on indefinitely.
+- Writing is apparently good for your physical health as well.
+
+The **downside** here is
+
+- I lose about an hour or two a week
+
+Running through the job change in the same way, this is my assessment.
+
+**Potential Upside**
+
+- At the new job I'll work on a multitude of spaces not tied too closely to distributed systems and infrastructure necessarily but more closely tied to making the startup a successful, defensible business and I could discover new areas of interest and success
+- I'll be mixing my distributed systems and infrastructure knowledge with ML, a recent interest of mine.
+- If the stock goes to the moon, then I as well, will be at said moon with it, Amen. Netflix and most big tech companies don't have as much of an upside potential in this regard.
+- The startup set up forces engineers (myself) to learn a lot more, and peels back the layers of structured infra, solved problems and sophisticated tools employed at large tech companies giving me a more 0-1 experience.
+- I will have a much greater impact on the company's trajectory, decision making, engineering culture, hiring etc.
+
+**Potential Downside**
+
+- I'll be working more hours and fully in-person (less flexibly)
+- If the stock does not go to the moon, then the compensation is still within rounding precision of my Netflix comp.
+- The company crashes - I may or may not have an agreement with my team at Netflix to let me back in =). This is true, but I know things are not so simple. More importantly, I'm not unconfident in my ability to get a well-paying job.
+
+I think this is a quick and dirty (but fair) run through of the puzzle.
+
+Now we're here, outside of Netflix - an abominable state for the version of me from a few months ago. But let's refocus on what leaving has taught me (and you). The world of your workplace and its daily challenges/fears are hardly as important as we think it is. This is unfortunately most visible in times of tragedy and misfortune. Never forget you have the agency to close it in under a second and jump somewhere else. Companies like Google, Netflix et al need you a lot more than you need them, and skilled as you are, always remember you can get a job anywhere in the market as quickly as you please, or start your own company or take a career break.
+
+I'll leave you with a quote from Naval
+
+***"Work as hard as you can. Even though who you work with and what you work on are more important than how hard you work."***
+`,
+    tags: ['Career', 'Netflix', 'Personal', 'Startup'],
+    readTime: 9
+  },
   // {
   //   id: '2',
   //   title: 'Waking Up',
