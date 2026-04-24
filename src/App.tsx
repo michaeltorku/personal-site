@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { AboutSection } from './components/AboutSection';
 import { ProjectList } from './components/ProjectList';
+import { ConsultingPage } from './components/ConsultingPage';
 
 export function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
@@ -45,6 +46,7 @@ export function App() {
         {currentPage === 'post' && currentPostId && <BlogPost postId={currentPostId} />}
         {currentPage === 'about' && <AboutSection />}
         {currentPage === 'projects' && <ProjectList />}
+        {currentPage === 'consulting' && <ConsultingPage />}
 
       </main>
       <Footer />

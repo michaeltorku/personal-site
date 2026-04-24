@@ -9,6 +9,39 @@ export interface BlogPost {
   readTime: number;
 }
 export const blogPosts: BlogPost[] = [
+  {
+    id: 'note-to-self',
+    title: 'Note to Self',
+    date: 'November 16, 2025',
+    author: 'Michael Torku',
+    excerpt:
+      'A post-graduation reflection on ambition, comfort, a good job, what I enjoy and choosing skills to sharpen.',
+    content: `
+Disclaimer: My thoughts go in different directions at once and sometimes that doesn't make for the most coherent reads, in future writes I'll try to fix that. For this piece, being the opener, I'm putting mind to paper. All that means is don't expect the rest of this to go in a straight line.
+
+I graduated college about a year ago. I had and still have an excitement about affecting the world, my communities and my wallet in a meaningful way.
+
+At the risk of sounding arrogant, I have a boisterous confidence in my ability to do most things. So part of graduating college meant I hadn't the slightest notion/plan of how I was going to affect the targets I mentioned. It was just going to work. I had a job offer in hand, decent to good software engineering skill and some grit if you will.
+
+In my mind, I was going to ace my job, get promoted, leave, start a company, impact tons of people, get rich, and once I was rich… well I hadn't thought much past that but let's leave that up to my moral compass et al.
+
+I started my job.
+
+It was cool and fun for some weeks, hard in others and not so fun from time to time. And unlike a class or some other ephemeral activity, I've had to stick with it day in and day out. I'm treated well, compensated well, I have good friends and family and all the good things that make for a comfortable life. Now I'm so comfortable, the days and weeks occasionally blend into one and I lose sight of some of the bigger goals I have.
+
+In some ways I think I'm wasting away but I'd say sleep-walking might be a better way to put it. I'm walking, moving forward as far as having impact at work and making connections, learning new things and making memories and I'm happy. At the same time I'm asleep, blending into the natural order of things and not bending forces of normalcy and symmetry to my efforts - which has always been part of my assessment of self.
+
+More importantly, how did we get here. By here I mean, in front of my laptop on a Saturday afternoon, looking through my window into the hums of Brooklyn and putting thoughts on a screen. I've never been the writing type or more shamefully the reading type for that matter. Not because of any stark opinions, I've just found I enjoyed them less than my other interests so I kept them next in line on most days.
+
+I wouldn't say I've awoken from my slumber, but I'm more cognizant of it. What are the high leverage skills with a straight line to impact that I am, need/want to or can get good at. I've run through a bunch of these, spending good money along the way. Standing in mostly the same spot as where I started. Of course maybe I wasn't consistent enough among other things and hopefully the experience has been priceless.
+
+More importantly I've sat down to think and I've found the skills that I want to focus on and sharpen more consciously. Unfortunately these are all the skills that I overlooked in my selection process. **Software Engineering** and **Communication**. I find that I have enjoyed these and they best position me to unlock more time and resources for the pursuit of other goals and hobbies of balance.
+
+I've run tons of experiments on myself. So far, I know I like helping people (more generally), I enjoy good company, and I love technical (among other) challenges. There's still a lot I haven't figured out. But I'm giving that **good thought.**
+`,
+    tags: ['Personal', 'Reflection', 'Career', 'Growth'],
+    readTime: 5
+  },
   // {
   //   id: '2',
   //   title: 'Waking Up',

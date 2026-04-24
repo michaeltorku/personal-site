@@ -23,6 +23,9 @@ export const Header: React.FC<HeaderProps> = ({
   }, {
     name: 'Projects',
     page: 'projects'
+  }, {
+    name: 'Consulting',
+    page: 'consulting'
   }];
   return <header className="sticky top-0 bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm border-b border-gray-200 dark:border-gray-800 z-10">
       <div className="container mx-auto flex justify-between items-center h-16 px-4">
