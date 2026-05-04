@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     date: 'November 16, 2025',
     author: 'Michael Torku',
     excerpt:
-      'A post-graduation reflection on ambition, comfort, a good job, what I enjoy and choosing skills to sharpen.',
+      'A post-graduation reflection on ambition, comfort, a good job and what I enjoy.',
     content: `
 Disclaimer: My thoughts go in different directions at once and sometimes that doesn't make for the most coherent reads, in future writes I'll try to fix that. For this piece, being the opener, I'm putting mind to paper. All that means is don't expect the rest of this to go in a straight line.
 
@@ -48,7 +48,7 @@ I've run tons of experiments on myself. So far, I know I like helping people (mo
     date: 'December 2, 2025',
     author: 'Michael Torku',
     excerpt:
-      'From the internship offer call to saying goodbye two years later: why I left for a startup bet, what I learned about asymmetric upside, and what Netflix taught me about engineering and agency.',
+      'My time at Netflix and why I left to join a startup.',
     content: `
 I remember receiving a phone call from Layne Austin in 2022 close to thanksgiving. Smiling ear to ear as she told me that I'd be receiving an offer to join Netflix, how excited the team was to have me and then reciting the many benefits I had already read over and over on the internet. Some days before this, I had an interview with my to be manager Charles Zhao at the end of which he mentioned he had enjoyed our chat and will be reaching out to HR to extend an internship offer. Every second between this day and that lasted 10. Scars of reddit threads roaming my mind convincing me that something could still go wrong even after Charles' assurance.
 
