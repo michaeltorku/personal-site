@@ -1,5 +1,6 @@
 import React from 'react';
 import { blogPosts } from '../data/blogPosts';
+import { homeIntroQuote } from '../siteCopy';
 interface BlogListProps {
   navigateTo: (page: string, postId: string | null) => void;
 }
@@ -12,8 +13,7 @@ export const BlogList: React.FC<BlogListProps> = ({
   return <div>
       <div className="mb-8">
         <p className="text-base leading-relaxed text-gray-600 dark:text-gray-400">
-          Things I build. Things I find interesting. 
-          Opinions I stand by, not ones that you should.
+          {homeIntroQuote}
         </p>
       </div>
       <div className="space-y-8">
