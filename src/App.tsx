@@ -5,7 +5,6 @@ import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { AboutSection } from './components/AboutSection';
 import { ProjectList } from './components/ProjectList';
-import { ConsultingPage } from './components/ConsultingPage';
 import { blogPosts } from './data/blogPosts';
 import { homeIntroQuote } from './siteCopy';
 
@@ -79,13 +78,6 @@ export function App() {
         return;
       }
     }
-    if (currentPage === 'consulting') {
-      setHeadTitles(`Consulting | ${SITE_TITLE}`);
-      setDesc(
-        'AI and software engineering consulting—strategy, architecture, implementation, and technical leadership.'
-      );
-      return;
-    }
     if (currentPage === 'about') {
       setHeadTitles(`About | ${SITE_TITLE}`);
       setDesc('About Michael Torku—background and how to get in touch.');
@@ -114,7 +106,6 @@ export function App() {
         {currentPage === 'post' && currentPostId && <BlogPost postId={currentPostId} />}
         {currentPage === 'about' && <AboutSection />}
         {currentPage === 'projects' && <ProjectList />}
-        {currentPage === 'consulting' && <ConsultingPage />}
 
       </main>
       <Footer />
