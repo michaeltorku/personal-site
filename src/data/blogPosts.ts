@@ -10,6 +10,108 @@ export interface BlogPost {
 }
 export const blogPosts: BlogPost[] = [
   {
+    id: 'learnings-at-25',
+    title: '*Learnings* at 25',
+    date: 'May 23, 2026',
+    author: 'Michael Torku',
+    excerpt:
+      'Reflections on feeling good, staying present, and protecting the relationships, body, and creative work that matter most.',
+    content: `
+# *Learnings* at 25
+
+I recently celebrated my 25th birthday. 
+
+I feel good. I don’t feel like I’m lacking meaningfully on any of the axes I care about. I’m trying to focus on living a more full life, trying new things, meeting people and learning. I want to spend more time in the moment, taking risks and learning.
+
+Here are some notes. This article was originally supposed to be learnings at 25 (inspired by [Vignesh Mohankumar](https://vig.xyz/), but these aren't all applicable to me, and some of them aren't really something to learn. Just some thoughts that I have for you and I. Hopefully you learn or remember something valuable.
+
+*Disclaimer* not exactly the most coherent thing I’ve written.
+
+---
+
+I have recently found a lot of utility in writing, asking questions and reminding myself of what matters and why said things matter. 
+
+Joining a startup and working for several hours in a day has taken a toll on my relationships and creative pursuits. I need to fix this. Both of these are of critical importance but the latter is less obviously important to most people.
+
+Take care of your body.
+
+Regret of not trying weighs a deadly amount more that regret of failure.
+
+I sometimes feel fomo reading about people my age with a fuck ton more motion than I have. [Eric Zhang](https://www.ekzhang.com/), [Leopold Aschenbrenner](https://www.linkedin.com/in/leopold-aschenbrenner), and [Will Depue](https://www.linkedin.com/in/willdepue/) being some of the regular offenders. But I think that’s just the “unhealthy” amount of greed and want that lives in most people. Not sure if it goes away but remember to keep it under control.
+
+**Being Free**
+
+- Live for yourself, be comfortable making mistakes and learning. The end of your life is summarized by people discussing how you strayed from the mean. Nobody will come up to say, “you were the most normal person who did what people expected and so they loved you for it.”
+- Most things you do downstream of being conformant rob you a bit of yourself, your life experience and your truth of being interesting and different - I can’t stress enough the importance of being interesting and different.
+- I used to have a number of contrived rules that I followed which restricted my decision-making toward some ideal version of self. Some of these were grounded in what people will think of me, or some other contract I had with myself toward being/seeming smart/easy-going/tasteful. Had to deeply question a lot of my decisions to fix this.
+- When doing something new/hard, I think there’s a freedom in admitting to yourself that you have no idea what you’re doing and working toward success freely - especially when you think you should know or people think you should know how to do it. I struggled with this for a while and I’m not sure I’m completely cured.
+
+**Regrets of the dying** are 5 things most dying people have said (in some shape or form) and I think it follows that if you can avoid all of these pitfalls, you'd have lived a pretty good life. 
+
+- "I wish I'd had the courage to live a life true to myself, not the life others expected of me."
+- "I wish I hadn't worked so hard."
+- "I wish I'd had the courage to express my feelings."
+- "I wish I had stayed in touch with my friends."
+- "I wish that I had let myself be happier."
+- “What was I so afraid of”
+
+Do what you want, don’t overthink it - your happiness is the ultimate priority, very few things should rob you of it. Whatever it is probably won’t matter in a few months. Most people will forget you 50 years after you’re dead and for those who knew you well personally (and so wouldn't forget) will probably be dead within 50years of you. 
+
+Reminders can be as important as life and forgetting can be as dangerous as death - a lot of wickedness and hurt that takes place follows from people forgetting the reality of hurt they cause and the many similarities and life experiences that bond us. As an extreme example, most people would refuse to war if they woke up daily to videos of the bloodcurdling screams of mothers and kids that are a product of it - yet most people have seen some version of this or heard a story to this effect. Alternatively, most people would spend their days differently if they had a vivid reminder of how their decisions would compound over the next 10 years - yet most have some inherent understanding or estimate of this.
+
+Most decisions are not a one way door - make a best-effort decision and stop wasting time. 
+
+Success loves speed.
+
+I've spent a lot of time asking questions I'm curious about to interesting and successful people I find. One of the bigger questions I ask is: “**What is the most important thing you know?**” It usually needs further explaining so I ask the counter question: “if you forgot everything you know now, what would be the first thing you’d want back?” I think my answer to that question is that **the human mind overestimates risk and underestimates opportunity (Bezos). We also have very little comprehension into what anything more than 3 months of work can amount to.** 
+
+- *In 2008, Airbnb founders  just wanted to make $80 a night renting out air mattresses to cover their San Francisco rent. They initially viewed it as a temporary project. It was worth $31B in 2016 and later grew to $130B*
+- *Jeff Bezos started Amazon in 1994 purely as an online bookstore to hedge against missing out on the early internet boom. It was valued at $30B in 1999. It is currently valued ~$2.86T*
+- *There’s a lot more of these (at the small, medium, and large scale business level)*
+
+“We must all suffer from one of two pains: the pain of discipline or the pain of regret. The difference is discipline weighs ounces while regret weighs tons.” ―Jim Rohn
+
+**The following are some Naval Ravikant quotes I find relevant here.**
+
+- The only real test of intelligence is if you get what you want out of life.
+- The people who have the ability to fail in public under their own name actually gain a lot of power.
+- Specialization is for insects. I don't believe in this model of trying to focus your life down on one thing. You've got one life just do everything you want.
+- You have two lives, and the second one begins when you realize you only have one
+- Impatience with actions, patience with results.
+- The measure of how much you love something is what you sacrifice for it.
+- All the benefits in life come from compound interest — money, relationships, habits — anything of importance.
+- The modern devil is cheap dopamine.
+- All greatness comes from suffering.
+- Don't spend your life making other people happy. Other people being happy is their problem.
+- The most important trick to be happy is to realize that happiness is a choice that you make and a skill that you develop. You choose to be happy, and then you work at it. It’s just like building muscles.
+- **Don’t take yourself so seriously. You’re just a monkey with a plan.**
+`,
+    tags: ['Personal', 'Reflection', 'Growth'],
+    readTime: 6
+  },
+  {
+    id: 'thinking-notes',
+    title: 'Thinking Notes',
+    date: 'April 11, 2026',
+    author: 'Michael Torku',
+    excerpt:
+      'A short note on noticing an aversion to deep thinking and pushing back against outsourcing thought to AI.',
+    content: `
+# Thinking Notes
+
+I recently feel a sense of mental aversion about thinking deeply. 
+
+- My mind is constantly trying to handoff thinking work to later or to AI which is super harmful.
+- I need to become more focused/aware and jump in front of this.
+- I find this happens worst during extended reading and debugging or thinking of solutions to uncertainty ridden technical problems.
+- I have no idea where this came from - I assume this is an increasing effect of prolonged use of AI.
+
+I am actively trying to undo this.
+`,
+    tags: ['Reflection', 'Thinking', 'Productivity'],
+    readTime: 1
+  },
+  {
     id: 'note-to-self',
     title: 'Note to Self',
     date: 'November 16, 2025',
