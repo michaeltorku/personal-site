@@ -7,6 +7,30 @@ interface BlogListProps {
 export const BlogList: React.FC<BlogListProps> = ({
   navigateTo
 }) => {
+  const escapeHtml = (value: string) =>
+    value
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+
+  const formatInline = (value: string) =>
+    escapeHtml(value)
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label: string, href: string) => {
+        const safeHref = href.replace(/"/g, '&quot;');
+        return (
+          '<a href="' +
+          safeHref +
+          '" class="font-medium text-blue-600 underline decoration-blue-600/30 underline-offset-2 hover:decoration-blue-600 dark:text-blue-400 dark:decoration-blue-400/40 dark:hover:decoration-blue-400" rel="noopener noreferrer" target="_blank">' +
+          label +
+          '</a>'
+        );
+      })
+      .replace(/\*\*\*([^*]+)\*\*\*/g, '<strong><em>$1</em></strong>')
+      .replace(/(^|[\s>])\*([^*\n]+)\*(?=[\s.,;:!?)]|$)/g, '$1<em>$2</em>')
+      .replace(/`([^`]+)`/g, '<code>$1</code>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+
   const postsByRecency = [...blogPosts].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
@@ -26,7 +50,7 @@ export const BlogList: React.FC<BlogListProps> = ({
               </div>
               <h2 className="text-2xl font-bold">
                 <button onClick={() => navigateTo('post', post.id)} className="hover:text-blue-600 dark:hover:text-blue-400">
-                  {post.title}
+                  <span dangerouslySetInnerHTML={{ __html: formatInline(post.title) }} />
                 </button>
               </h2>
               <p className="text-[1.02rem] leading-relaxed text-gray-600 dark:text-gray-400">
