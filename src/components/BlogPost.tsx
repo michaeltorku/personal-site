@@ -17,11 +17,6 @@ export const BlogPost: React.FC<BlogPostProps> = ({ postId }) => {
 
   const formatInline = (value: string) =>
     escapeHtml(value)
-      .replace(
-        /&lt;span underline=&quot;true&quot;&gt;([\s\S]*?)&lt;\/span&gt;/g,
-        '<span class="underline decoration-inherit decoration-1 underline-offset-2">$1</span>'
-      )
-      .replace(/&lt;empty-block\/&gt;/g, '')
       .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, label: string, href: string) => {
         const safeHref = href.replace(/"/g, '&quot;');
         return (
@@ -69,11 +64,6 @@ export const BlogPost: React.FC<BlogPostProps> = ({ postId }) => {
     while (i < lines.length) {
       const line = lines[i] ?? '';
       const trimmedLine = line.trim();
-
-      if (trimmedLine === '<empty-block/>' || trimmedLine === '&lt;empty-block/&gt;') {
-        i++;
-        continue;
-      }
 
       if (/^---+$/.test(trimmedLine)) {
         out.push('<hr />');

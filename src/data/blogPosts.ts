@@ -68,10 +68,10 @@ Reminders can be as important as life and forgetting can be as dangerous as deat
 Most decisions are not a one way door - make a best-effort decision and stop wasting time. 
 Success loves speed.
 
-I've spent a lot of time asking questions to interesting and successful people I find. One of the bigger questions I ask is: “**What is the most important thing you know?**” It usually needs further explaining so I ask the counter question: “if you forgot everything you know now, what would be the first thing you’d want back?” I think my answer to that question is that **the human mind overestimates risk and underestimates opportunity (Bezos). We also have very little comprehension into what anything more than 3 months of work can amount to. **
+I've spent a lot of time asking questions to interesting and successful people I find. One of the bigger questions I ask is: “**What is the most important thing you know?**” It usually needs further explaining so I ask the counter question: “if you forgot everything you know now, what would be the first thing you’d want back?” I think my answer to that question is that **the human mind overestimates risk and underestimates opportunity (Bezos). We also have very little comprehension into what anything more than 3 months of work can amount to.**
 
-- *In *<span underline="true">*2008*</span>*, Airbnb founders  just wanted to make \\$80 a night renting out air mattresses to cover their San Francisco rent. They initially viewed it as a temporary project. It was worth \\$31B in *<span underline="true">*2016*</span>* and later grew to \\$130B*
-- *Jeff Bezos started Amazon in *<span underline="true">*1994*</span>* purely as an online bookstore to hedge against missing out on the early internet boom. It was valued at \\$30B in *<span underline="true">*1999*</span>*. It is currently valued \\~\\$2.86T*
+- *In 2008, Airbnb founders just wanted to make $80 a night renting out air mattresses to cover their San Francisco rent. They initially viewed it as a temporary project. It was worth $31B in 2016 and later grew to $130B*
+- *Jeff Bezos started Amazon in 1994 purely as an online bookstore to hedge against missing out on the early internet boom. It was valued at $30B in 1999. It is currently valued ~$2.86T*
 - *There’s a lot more of these (at the small, medium, and large scale business level)*
 
 “We must all suffer from one of two pains: the pain of discipline or the pain of regret. The difference is discipline weighs ounces while regret weighs tons.” ―Jim Rohn
