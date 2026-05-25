@@ -95,28 +95,6 @@ I've spent a lot of time asking questions to interesting and successful people I
     readTime: 6
   },
   {
-    id: 'thinking-notes',
-    title: 'Thinking Notes',
-    date: 'April 11, 2026',
-    author: 'Michael Torku',
-    excerpt:
-      'A short note on noticing an aversion to deep thinking and pushing back against outsourcing thought to AI.',
-    content: `
-# Thinking Notes
-
-I recently feel a sense of mental aversion about thinking deeply. 
-
-- My mind is constantly trying to handoff thinking work to later or to AI which is super harmful.
-- I need to become more focused/aware and jump in front of this.
-- I find this happens worst during extended reading and debugging or thinking of solutions to uncertainty ridden technical problems.
-- I have no idea where this came from - I assume this is an increasing effect of prolonged use of AI.
-
-I am actively trying to undo this.
-`,
-    tags: ['Reflection', 'Thinking', 'Productivity'],
-    readTime: 1
-  },
-  {
     id: 'note-to-self',
     title: 'Note to Self',
     date: 'November 16, 2025',
