@@ -45,6 +45,45 @@ export function App() {
   }, [theme]);
 
   useEffect(() => {
+    const syncFromLocation = () => {
+      const params = new URLSearchParams(window.location.search);
+      const page = params.get('page');
+      const postId = params.get('postId');
+
+      if (page === 'post' && postId) {
+        setCurrentPage('post');
+        setCurrentPostId(postId);
+        return;
+      }
+
+      if (page === 'about') {
+        setCurrentPage('about');
+        setCurrentPostId(null);
+        return;
+      }
+
+      if (page === 'projects') {
+        setCurrentPage('projects');
+        setCurrentPostId(null);
+        return;
+      }
+
+      setCurrentPage('home');
+      setCurrentPostId(null);
+    };
+
+    syncFromLocation();
+
+    const onPopState = () => {
+      syncFromLocation();
+      window.scrollTo(0, 0);
+    };
+
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
+
+  useEffect(() => {
     const descEl = document.querySelector('meta[name="description"]');
     const ogDesc = document.querySelector('meta[property="og:description"]');
     const twDesc = document.querySelector('meta[name="twitter:description"]');
@@ -95,6 +134,19 @@ export function App() {
     setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
   };
   const navigateTo = (page: string, postId: string | null = null) => {
+    const url = new URL(window.location.href);
+    url.searchParams.delete('page');
+    url.searchParams.delete('postId');
+
+    if (page !== 'home') {
+      url.searchParams.set('page', page);
+    }
+    if (page === 'post' && postId) {
+      url.searchParams.set('page', 'post');
+      url.searchParams.set('postId', postId);
+    }
+
+    window.history.pushState({ page, postId }, '', `${url.pathname}${url.search}${url.hash}`);
     setCurrentPage(page);
     setCurrentPostId(postId);
     window.scrollTo(0, 0);
