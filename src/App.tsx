@@ -4,7 +4,6 @@ import { BlogList } from './components/BlogList';
 import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { AboutSection } from './components/AboutSection';
-import { ProjectList } from './components/ProjectList';
 import { blogPosts } from './data/blogPosts';
 import { homeIntroQuote } from './siteCopy';
 
@@ -58,12 +57,6 @@ export function App() {
 
       if (page === 'about') {
         setCurrentPage('about');
-        setCurrentPostId(null);
-        return;
-      }
-
-      if (page === 'projects') {
-        setCurrentPage('projects');
         setCurrentPostId(null);
         return;
       }
@@ -122,11 +115,6 @@ export function App() {
       setDesc('About Michael Torku—background and how to get in touch.');
       return;
     }
-    if (currentPage === 'projects') {
-      setHeadTitles(`Projects | ${SITE_TITLE}`);
-      setDesc('Selected projects and technical work.');
-      return;
-    }
     setHeadTitles(SITE_TITLE);
     setDesc(DEFAULT_DESCRIPTION);
   }, [currentPage, currentPostId]);
@@ -157,7 +145,6 @@ export function App() {
         {currentPage === 'home' && <BlogList navigateTo={navigateTo} />}
         {currentPage === 'post' && currentPostId && <BlogPost postId={currentPostId} />}
         {currentPage === 'about' && <AboutSection />}
-        {currentPage === 'projects' && <ProjectList />}
 
       </main>
       <Footer />
