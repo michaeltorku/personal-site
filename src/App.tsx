@@ -4,6 +4,7 @@ import { BlogList } from './components/BlogList';
 import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { AboutSection } from './components/AboutSection';
+import { TasteBudsPage } from './components/TasteBudsPage';
 import { blogPosts } from './data/blogPosts';
 import { homeIntroQuote } from './siteCopy';
 
@@ -57,6 +58,12 @@ export function App() {
 
       if (page === 'about') {
         setCurrentPage('about');
+        setCurrentPostId(null);
+        return;
+      }
+
+      if (page === 'taste-buds') {
+        setCurrentPage('taste-buds');
         setCurrentPostId(null);
         return;
       }
@@ -115,6 +122,11 @@ export function App() {
       setDesc('About Michael Torku—background and how to get in touch.');
       return;
     }
+    if (currentPage === 'taste-buds') {
+      setHeadTitles(`Taste Buds | ${SITE_TITLE}`);
+      setDesc('Taste Buds is a food project built around meals, conversation, and rankings by cuisine, blind taste, and context.');
+      return;
+    }
     setHeadTitles(SITE_TITLE);
     setDesc(DEFAULT_DESCRIPTION);
   }, [currentPage, currentPostId]);
@@ -145,6 +157,7 @@ export function App() {
         {currentPage === 'home' && <BlogList navigateTo={navigateTo} />}
         {currentPage === 'post' && currentPostId && <BlogPost postId={currentPostId} />}
         {currentPage === 'about' && <AboutSection />}
+        {currentPage === 'taste-buds' && <TasteBudsPage navigateTo={navigateTo} />}
 
       </main>
       <Footer />
