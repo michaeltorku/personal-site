@@ -17,8 +17,6 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'A reflection on time, luck surface area, body, spending, and the tradeoffs of staying too comfortable.',
     content: `
-# *Learnings* at 25
-
 I recently celebrated my 25th birthday. 
 
 I feel good. I don’t feel like I’m lacking meaningfully on any of the axes I care about. I’m trying to focus on living a more full life, trying new things, meeting people and learning. I want to spend more time in the moment and take more risks.
