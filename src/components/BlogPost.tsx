@@ -72,7 +72,12 @@ export const BlogPost: React.FC<BlogPostProps> = ({ postId }) => {
       }
 
       if (/^<h[234]>/.test(line)) {
-        out.push(formatInline(line));
+        const headingMatch = line.match(/^<(h[234])>([\s\S]*)<\/\1>$/);
+        if (headingMatch) {
+          out.push(`<${headingMatch[1]}>${formatInline(headingMatch[2] ?? '')}</${headingMatch[1]}>`);
+        } else {
+          out.push(line);
+        }
         i++;
         continue;
       }
