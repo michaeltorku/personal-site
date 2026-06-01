@@ -7,11 +7,12 @@ export interface BlogPost {
   content: string;
   tags: string[];
   readTime: number;
+  showInHome?: boolean;
 }
 export const blogPosts: BlogPost[] = [
   {
-    id: 'v0-0-0',
-    title: 'v0.0.0',
+    id: 'axiom-labs',
+    title: 'Axiom Labs',
     date: 'May 31, 2026',
     author: 'Michael Torku',
     excerpt:
@@ -19,7 +20,6 @@ export const blogPosts: BlogPost[] = [
     content: `
 I had a recent realization of how fast life comes at you ([here](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s)) [49:15](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s) to 51:35.
 That realization made me think more seriously about the decisions I’m making and the shape of my life as I build it.
-I enjoy my life a lot. But I’d still like to make it fuller - meet more people, experience more things etc.
 This idea came as a byproduct of that.
 
 **Fast Context**
@@ -69,9 +69,119 @@ Early in one of his most popular videos, Alex says:
 
 I hope I get these results.
 LFG!
+I hope I get these results =)
 `,
     tags: ['Personal', 'Reflection', 'Experiment', 'Ideas'],
     readTime: 7
+  },
+  {
+    id: 'v0-0-0',
+    title: 'v0.0.0',
+    date: 'May 31, 2026',
+    author: 'Michael Torku',
+    excerpt:
+      'A public lab for testing life, leverage, discipline, happiness, and internet wisdom through weekly experiments.',
+    content: `
+I had a recent realization of how fast life comes at you ([here](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s)) [49:15](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s) to 51:35.
+That realization made me think more seriously about the decisions I’m making and the shape of my life as I build it.
+This idea came as a byproduct of that.
+
+**Fast Context**
+
+- I’m 24 years old. Graduated college in May ‘24, currently live in Brooklyn but I’m originally from Accra, Ghana 🇬🇭
+- Live a good life and make decent money as a software engineer in NYC making a couple of hundreds of thousands of dollars
+- I have a strong circle of friends and family and would score pretty decently on the outgoing side of things.
+- I work at a startup ([Basis](https://getbasis.ai)) for most hours of the week day. We’re hiring! Connect/reach out to me over [linkedin](https://www.linkedin.com/in/michael-torku) or [X](https://x.com/mtorkumt?s=21) for a coffee chat and referral.
+- I enjoy problem-solving broadly. I have a wide range of interests and have often struggled to identify one thing I’d want to do indefinitely.
+
+I see a ton of information and popular wisdom over the internet. I will be running various stress tests on these bodies of knowledge mostly pertaining to self-help. I will target media personalities and the outcomes their content projects.
+
+Consider this a public lab or execution layer of internet wisdom where I will run experiments on money, leverage, happiness, status, discipline, audience, business models, decision-making etc. The general format would be to take person A who broadcasts concept/item B and how to attain it by doing C. My goal would be to do C ruthlessly and to prescription in order to get B. If there’s an experiment you’d like to see tested, share it or like a comment that does.
+
+I’d like to present my biases up front. It’s fair to assume I’m skeptical on most of the experiments I’ll be running unless otherwise stated - and I find that to be an important premise of selection that I don’t expend significant resources toward an outcome I expect. As the experimenter, I will:
+
+- Be consistent and execute not as a fan or a hater but as a serious tester.
+- Assume the content under test is true unless it has been materially revised later
+- Follow the ideas/wisdom under test as closely as possible
+- Attempt to reach out to the publisher initially about the experiment and at points of non-trivial strategy/confusion. All of these interactions would be captured in any updates.
+- Be fully transparent with my process, challenges and results via weekly updates
+- Stay as efficient and objective as possible
+- Answer questions that come up along the way
+
+The thesis is that these experiments will be a window into
+1. Having some fun
+2. Gaining practical knowledge and insights across new verticals
+3. Learning or trying new things/experiences
+4. Meeting new people.
+5. Trying things I’ve found cringe/scary/hard to do
+6. Throwing some more asymmetric bets ([1](https://www.youtube.com/watch?v=dZxbVGhpEkI),[2](https://www.youtube.com/watch?v=12XWJRWl3MY)) into the world
+7. Becoming more comfortable with not knowing anything, with failure etc
+8. Learn new things about myself
+
+Like most people, I’ve consumed a ton of media, admired frameworks, and thought in broad ambitious strokes. Far fewer of those ideas have been tested seriously.
+Update frequency will be weekly unless otherwise stated. Each update will be versioned X.Y.Z with X being experiment identifier, Y being the week number of the update and Z being any patches to my submissions as needed. Fair to assume vX.0.0 captures detail about the experiment, publisher and execution strategy.
+
+Here’s a peek into the thesis of the first experiment without much detail (the fuller version of which would be captured in v1.0.0).
+
+### **Experiment 1: The Hormozi Test**
+
+The first experiment is on the internet wisdom of **Alex Hormozi** across X, YouTube, and the broader business content ecosystem.
+Alex teaches business growth, sales, marketing, offer creation, and monetization strategies focused on scaling businesses to eight figures and beyond.
+Early in one of his most popular videos, Alex says:
+
+> “I was able to take home more in a year than the CEOs of McDonald’s, Ikea, Ford, Motorola, and Yahoo combined as a kid in his 20s for over half a decade.”
+
+I hope I get these results.
+LFG!
+I hope I get these results =)
+`,
+    tags: ['Personal', 'Reflection', 'Experiment', 'Ideas'],
+    readTime: 7,
+    showInHome: false
+  },
+  {
+    id: 'the-hormozi-test-v1-0-0',
+    title: 'The Hormozi Test v1.0.0',
+    date: 'April 8, 2026',
+    author: 'Michael Torku',
+    excerpt:
+      'An experiment on Alex Hormozi’s business teachings, execution, and whether the ideas hold up in practice.',
+    content: `
+Synopsis on creator, list and synthesis of content sources
+Alex Hormozi is a content creator in the business space whose main content targets youth and business owners more generally on how to start, unblock or otherwise scale their businesses profitably. He has three books 100M offers, 100M money models and 100M Leads. Which capture a wealth of strategies and ideas he stands by as being effective in building a solid business. His content takes an essentialist approach to the world of business and presents most situations with simple-seeming answers and often working backward from a (complex-looking) goal.
+
+**QUESTION**
+Can following the teachings and insights of Alex Hormozi allow me to build a strong/profitable business with good fundamentals in about a year?
+
+**Why I chose this/why worth testing**
+Alex Hormozi is one of the media personalities I see the most in my media digest. He has a large audience and has also made some of the more incredible claims regarding wealth he has accumulated via his principles. I don’t intend to discredit his success/teachings but also have no affiliation to Alex or methods to prove his wealth or its sources to be what he has mentioned as such I will refer to those as his claims.
+
+**Starting point**
+I have no relevant business experience. I have read little to no business books beyond Rich Dad Poor Dad. I estimate having read a number of articles in the space which I don’t remember and it follows that they are of inconsequential influence on my understanding in the space. I have previously purchased and run an online business for ~$40,000 to poor results in a few months. In hindsight I might not be as neutral as I thought in this space but rather at a knowledge disadvantage.
+
+**Resources/ Technical Specs**
+Books
+- 100M Offers
+- 100M Leads
+- 100M Models
+- Alex’s youtube channel
+
+Initial Capital: $10,000
+Time Commitment: 2hrs/day on weekdays, >2hrs/day on weekends
+Estimated duration: ~10months
+
+**What i will measure**
+Track time spent daily. Conversations had, phone calls made. Any support I get from reaching out to Alex or his team, or other non-listed resources. Try to video as much of the work sessions as I can.
+
+Current plan and what I’m doing now/intend to achieve this week
+- Set up a corporate entity and other regulatory filing
+- Choose a business by Alex’s content
+- Do the math on desired revenue results and clearly map out success and failure and inconclusive criteria
+- Read the 3 books & listen to the audio versions
+`,
+    tags: ['Personal', 'Reflection', 'Experiment', 'Business'],
+    readTime: 6,
+    showInHome: false
   },
   {
     id: 'learnings-at-25',

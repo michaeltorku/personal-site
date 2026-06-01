@@ -31,7 +31,9 @@ export const BlogList: React.FC<BlogListProps> = ({
       .replace(/`([^`]+)`/g, '<code>$1</code>')
       .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
 
-  const postsByRecency = [...blogPosts].sort(
+  const postsByRecency = [...blogPosts]
+    .filter((post) => post.showInHome !== false)
+    .sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
   );
   return <div>
