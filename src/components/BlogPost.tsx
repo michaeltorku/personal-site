@@ -54,8 +54,8 @@ export const BlogPost: React.FC<BlogPostProps> = ({ postId }) => {
 
     s = s
       .replace(/^### (.*)$/gm, '<h4>$1</h4>')
-      .replace(/^## (.*)$/gm, '<h3>$1</h3>')
-      .replace(/^# (.*)$/gm, '<h2>$1</h2>');
+      .replace(/^## (.*)$/gm, '<h4>$1</h4>')
+      .replace(/^# (.*)$/gm, '<h3>$1</h3>');
 
     const lines = s.split('\n');
     const out: string[] = [];
@@ -178,7 +178,7 @@ export const BlogPost: React.FC<BlogPostProps> = ({ postId }) => {
           dark:prose-code:bg-gray-800/90 dark:prose-code:text-gray-100
           prose-pre:rounded-xl prose-pre:border prose-pre:border-gray-200 prose-pre:bg-gray-50 prose-pre:shadow-sm
           dark:prose-pre:border-gray-700 dark:prose-pre:bg-gray-950/50
-          prose-h2:mt-12 prose-h2:mb-4 prose-h3:mt-10 prose-h3:mb-3 prose-h4:mt-8 prose-h4:mb-2
+          prose-h2:mt-8 prose-h2:mb-3 prose-h3:mt-10 prose-h3:mb-4 prose-h4:mt-8 prose-h4:mb-2
           selection:bg-blue-100 selection:text-gray-900 dark:selection:bg-blue-900/50 dark:selection:text-gray-100"
         dangerouslySetInnerHTML={{
           __html: formatContent(post.content)
