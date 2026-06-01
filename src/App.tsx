@@ -5,7 +5,6 @@ import { Footer } from './components/Footer';
 import { BlogPost } from './components/BlogPost';
 import { AboutSection } from './components/AboutSection';
 import { TasteBudsPage } from './components/TasteBudsPage';
-import { AxiomLabsPage } from './components/AxiomLabsPage';
 import { blogPosts } from './data/blogPosts';
 import { homeIntroQuote } from './siteCopy';
 
@@ -69,12 +68,6 @@ export function App() {
         return;
       }
 
-      if (page === 'axiom-labs') {
-        setCurrentPage('axiom-labs');
-        setCurrentPostId(null);
-        return;
-      }
-
       setCurrentPage('home');
       setCurrentPostId(null);
     };
@@ -134,11 +127,6 @@ export function App() {
       setDesc('Taste Buds is a food project built around meals, conversation, and rankings by cuisine, blind taste, and context.');
       return;
     }
-    if (currentPage === 'axiom-labs') {
-      setHeadTitles(`Axiom Labs | ${SITE_TITLE}`);
-      setDesc('Axiom Labs is a home for experiments, prototypes, and product ideas.');
-      return;
-    }
     setHeadTitles(SITE_TITLE);
     setDesc(DEFAULT_DESCRIPTION);
   }, [currentPage, currentPostId]);
@@ -170,7 +158,6 @@ export function App() {
         {currentPage === 'post' && currentPostId && <BlogPost postId={currentPostId} />}
         {currentPage === 'about' && <AboutSection />}
         {currentPage === 'taste-buds' && <TasteBudsPage navigateTo={navigateTo} />}
-        {currentPage === 'axiom-labs' && <AxiomLabsPage navigateTo={navigateTo} />}
 
       </main>
       <Footer />
