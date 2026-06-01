@@ -17,9 +17,9 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       'A public lab for testing life, leverage, discipline, happiness, and internet wisdom through weekly experiments.',
     content: `
-We have a situation here! I had a recent realization of how fast life comes at you ([here](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s) [49:15](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s) to 51:35).
-That realization made me think more seriously about the decisions I’m making, the artificial rules I create for myself, and the shape of my life as I build it.
-I enjoy my life a lot. But I’d still like to make it fuller - meet more people, experience more things, take more swings.
+I had a recent realization of how fast life comes at you ([here](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s)) [49:15](https://www.youtube.com/watch?v=C4ylGGYD-3c&t=2955s) to 51:35.
+That realization made me think more seriously about the decisions I’m making and the shape of my life as I build it.
+I enjoy my life a lot. But I’d still like to make it fuller - meet more people, experience more things etc.
 This idea came as a byproduct of that.
 
 **Fast Context**
@@ -83,21 +83,21 @@ LFG!
     content: `
 I recently celebrated my 25th birthday. 
 
-I feel good. I don’t feel like I’m lacking meaningfully on any of the axes I care about. I’m trying to focus on living a more full life, trying new things, meeting people and learning. I want to spend more time in the moment and take more risks.
+I feel like I’m getting old but I feel good. I don’t feel like I’m lacking meaningfully on any of the axes I care about. I’m trying to focus on living a more full life, trying new things, meeting people and learning. I want to spend more time in the moment and take more risks.
 
 Here are some notes. This article was originally intended to be learnings at 25 (inspired by [Vignesh Mohankumar](https://vig.xyz/), but these aren't all applicable to me, and some of them aren't really something to learn. Just some thoughts that I have for you and I. Hopefully you learn or remember something valuable.
 
-*Disclaimer* not exactly the most coherent thing I’ve written.
+*Disclaimer* not the most coherent thing I’ve written.
 
 ---
 
 Time is your currency, guard it with your life. Almost everything takes more time than you'd expect. It's so easy to waste time. and there's not enough time to do everything you want to do.
 
-Introduce some randomness. Go somewhere you wouldn't rather have gone. Do something you wouldn't normally do. Talk to someone you wouldn't otherwise talk to. You’ll increase your luck surface area and be very glad that you did.
+Introduce some randomness. Go somewhere you wouldn't rather go . Do something you wouldn't normally do. Talk to someone you wouldn't otherwise talk to. You’ll increase your luck surface area and be very glad that you did.
  
-I have recently found a lot of utility in writing, asking questions and reminding myself of what matters and why said things matter. 
+I have recently found a lot of utility in writing, asking questions and reminding myself of what matters and why it matters. 
 
-Joining a startup and working for several hours in a day has taken a toll on my relationships and creative pursuits. I need to fix this. Both of these are of critical importance but the latter is less obviously important to most people.
+Joining a startup and working for several hours in a day has taken a toll on my relationships and creative pursuits. I need to fix this. Both of these are of critical importance, the latter is less obviously important to most people.
 
 Take care of your body. 
 
@@ -105,12 +105,12 @@ Track your spending.
 
 Regret of not trying weighs a deadly amount more that regret of failure.
 
-I sometimes feel fomo reading about people my age with a fuck ton more motion than I have. [Eric Zhang](https://www.ekzhang.com/), [Leopold Aschenbrenner](https://www.linkedin.com/in/leopold-aschenbrenner), and [Will Depue](https://www.linkedin.com/in/willdepue/) being some of the regular offenders. But I think that’s just the “unhealthy” amount of greed and want that lives in most people. Not sure if it goes away but remember to keep it under control.
+I sometimes feel fomo reading about people my age with insane motion. [Eric Zhang](https://www.ekzhang.com/), [Leopold Aschenbrenner](https://www.linkedin.com/in/leopold-aschenbrenner), and [Will Depue](https://www.linkedin.com/in/willdepue/) being some of the regular offenders. But I think that’s just the “unhealthy” amount of greed and want that lives in most people. Not sure if it goes away but remember to keep it under control.
 
 **Being Free**
 
 - Live for yourself, be comfortable making mistakes. The end of your life is summarized by people discussing how you strayed from the mean. Nobody will come up to say, “you were the most normal person who did what people expected and so they loved you for it.”
-- Most things you do downstream of being conformant rob you a bit of yourself, your life experience and your truth of being interesting and different - I can’t stress enough the importance of being interesting and different.
+- Most things you do to be conformant rob you a bit of yourself, your life experience and your truth of being interesting and different - I can’t stress enough the importance of being interesting and different.
 - I used to have a number of contrived rules that I followed which restricted my decision-making toward some ideal version of self. Some of these were grounded in what people will think of me, or some other contract I had with myself toward being/seeming smart/easy-going/tasteful. Had to deeply question a lot of my decisions to fix this.
 - When doing something new/hard (and you should always be doing something new/hard) I think there’s a freedom in admitting to yourself that you have no idea what you’re doing and working toward success freely - especially when you think you should know or people think you should know how to do it. I struggled with this for a while and I’m not sure I’m completely cured.
 
@@ -125,15 +125,15 @@ I sometimes feel fomo reading about people my age with a fuck ton more motion th
 
 Do what you want, don’t overthink it - your happiness is the ultimate priority, very few things should rob you of it. Whatever it is probably won’t matter in a few months. Most people will forget you 50 years after you’re dead and for those who knew you well personally (and so wouldn't forget) will probably be dead within 50years of you. 
 
-Reminders can be as important as life and forgetting can be as dangerous as death - a lot of wickedness and hurt that takes place follows from people forgetting the reality of hurt they cause and the similarities and experiences that unite us. As an extreme example, most people would refuse to war if they woke up daily to videos of the bloodcurdling screams of mothers and kids that are a product of it - yet most people have seen some version of this or heard a story to this effect. Alternatively, most people would spend their days differently if they had a vivid reminder of how their current lifestyle would compound over the next 10 years - yet most have some inherent understanding or estimate of this.
+Reminders make a world of difference - as an example, most people would spend their days differently if they had a vivid and consistent reminder of how their current lifestyle would compound over the next 10 years, yet most have some inherent understanding or estimate of this.
 
 Most decisions are not a one way door - make a best-effort decision and stop wasting time. 
 Success loves speed.
 
-I've spent a lot of time asking questions to interesting and successful people I find. One of the bigger questions I ask is: “**What is the most important thing you know?**” It usually needs further explaining so I ask the counter question: “if you forgot everything you know now, what would be the first thing you’d want back?” I think my answer to that question is that **the human mind overestimates risk and underestimates opportunity (Bezos). We also have very little comprehension into what anything more than 3 months of work can amount to.**
+I've spent a lot of time asking questions to interesting and successful people I find. One of the bigger questions I ask is: “**What is the most important thing you know?**” It usually needs further explaining so I ask the counter question: “if you forgot everything you know now, what would be the first thing you’d want back?” I think my answer to that question is that **the human mind overestimates risk and underestimates opportunity (Bezos). We also have very little comprehension into what anything more than 3 months of work can amount to. **
 
 - *In 2008, Airbnb founders just wanted to make $80 a night renting out air mattresses to cover their San Francisco rent. They initially viewed it as a temporary project. It was worth $31B in 2016 and later grew to $130B*
-- *Jeff Bezos started Amazon in 1994 purely as an online bookstore to hedge against missing out on the early internet boom. It was valued at $30B in 1999. It is currently valued ~$2.86T*
+- *Jeff Bezos started Amazon in 1994 purely as an online bookstore to hedge against missing out on the early internet boom. It was valued at $30B in 1999 - somewhat inflated by the dot com boom. It is currently valued ~$2.86T*
 - *There’s a lot more of these (at the small, medium, and large scale business level)*
 
 “We must all suffer from one of two pains: the pain of discipline or the pain of regret. The difference is discipline weighs ounces while regret weighs tons.” ―Jim Rohn
