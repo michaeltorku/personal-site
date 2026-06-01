@@ -147,7 +147,7 @@ I hope I get these results =)
     excerpt:
       'An experiment on Alex Hormozi’s business teachings, execution, and whether the ideas hold up in practice.',
     content: `
-Synopsis on creator, list and synthesis of content sources
+**Synopsis on creator, list and synthesis of content sources**
 Alex Hormozi is a content creator in the business space whose main content targets youth and business owners more generally on how to start, unblock or otherwise scale their businesses profitably. He has three books 100M offers, 100M money models and 100M Leads. Which capture a wealth of strategies and ideas he stands by as being effective in building a solid business. His content takes an essentialist approach to the world of business and presents most situations with simple-seeming answers and often working backward from a (complex-looking) goal.
 
 **QUESTION**
