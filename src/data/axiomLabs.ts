@@ -4,7 +4,6 @@ export interface AxiomLabsPost {
   date: string;
   excerpt: string;
   summary: string;
-  tags: string[];
 }
 
 export const axiomLabsPosts: AxiomLabsPost[] = [
@@ -15,8 +14,6 @@ export const axiomLabsPosts: AxiomLabsPost[] = [
     excerpt:
       'A public lab for testing life, leverage, discipline, happiness, and internet wisdom through weekly experiments.',
     summary:
-      'The first experiment is a public execution layer for internet wisdom, where ideas are tested seriously rather than admired passively.',
-    tags: ['Experiment', 'Self-Help', 'Internet Wisdom']
+      'The first entry frames the lab as a place for experiments and notes that are meant to be tested, not just read.'
   }
 ];
-

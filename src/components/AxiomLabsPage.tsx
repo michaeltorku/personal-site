@@ -16,17 +16,9 @@ export const AxiomLabsPage: React.FC<AxiomLabsPageProps> = ({ navigateTo }) => {
           Axiom Labs
         </h1>
         <p className="max-w-2xl text-base leading-7 text-gray-700 dark:text-gray-300">
-          Axiom Labs is where experiments live. It is a separate page for posts
-          that are about testing ideas, not just recording them.
+          A small shelf for experiments, notes, and short pieces that sit
+          alongside the blog.
         </p>
-        <div className="flex flex-wrap gap-2 pt-2">
-          <button
-            onClick={() => navigateTo('home')}
-            className="rounded-full border border-gray-300 px-4 py-2 text-sm text-gray-700 hover:border-gray-500 hover:text-gray-950 dark:border-gray-700 dark:text-gray-300 dark:hover:border-gray-500 dark:hover:text-gray-50"
-          >
-            Back to blog
-          </button>
-        </div>
       </section>
 
       <section className="space-y-3">
@@ -57,16 +49,6 @@ export const AxiomLabsPage: React.FC<AxiomLabsPageProps> = ({ navigateTo }) => {
               <p className="mt-2 max-w-2xl text-sm leading-6 text-gray-600 dark:text-gray-400">
                 {post.summary}
               </p>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {post.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="rounded-full bg-gray-100 px-2.5 py-1 text-xs font-medium text-gray-700 dark:bg-gray-800 dark:text-gray-300"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
             </article>
           ))}
         </div>
@@ -74,4 +56,3 @@ export const AxiomLabsPage: React.FC<AxiomLabsPageProps> = ({ navigateTo }) => {
     </div>
   );
 };
-
