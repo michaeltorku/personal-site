@@ -4,7 +4,9 @@ export const AboutSection = () => {
       <h1 className="text-2xl mb-6">About </h1>
       <div className="prose dark:prose-invert max-w-none">
         <p className="mb-4">
-          Building infra at Netflix.
+          Building agents at Basis.
+          <br />
+          [Previously] Building infra at Netflix.
         </p>
         <h1 className="text-2xl mt-8 mb-4">Contact</h1>
         <p className="mb-2">
