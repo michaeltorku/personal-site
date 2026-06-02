@@ -32,6 +32,8 @@ This idea came as a byproduct of that.
 
 I see a ton of information and popular wisdom over the internet. I will be running various stress tests on these bodies of knowledge mostly pertaining to self-help. I will target media personalities and the outcomes their content projects.
 
+The first experiment in [Axiom Labs](/?page=axiom-labs) is [The Hormozi Test v1.0.0](/?page=axiom-labs&postId=the-hormozi-test-v1-0-0).
+
 Consider this a public lab or execution layer of internet wisdom where I will run experiments on money, leverage, happiness, status, discipline, audience, business models, decision-making etc. The general format would be to take person A who broadcasts concept/item B and how to attain it by doing C. My goal would be to do C ruthlessly and to prescription in order to get B. If there’s an experiment you’d like to see tested, share it or like a comment that does.
 
 I’d like to present my biases up front. It’s fair to assume I’m skeptical on most of the experiments I’ll be running unless otherwise stated - and I find that to be an important premise of selection that I don’t expend significant resources toward an outcome I expect. As the experimenter, I will:
@@ -95,6 +97,8 @@ This idea came as a byproduct of that.
 - I enjoy problem-solving broadly. I have a wide range of interests and have often struggled to identify one thing I’d want to do indefinitely.
 
 I see a ton of information and popular wisdom over the internet. I will be running various stress tests on these bodies of knowledge mostly pertaining to self-help. I will target media personalities and the outcomes their content projects.
+
+The first experiment in [Axiom Labs](/?page=axiom-labs) is [The Hormozi Test v1.0.0](/?page=axiom-labs&postId=the-hormozi-test-v1-0-0).
 
 Consider this a public lab or execution layer of internet wisdom where I will run experiments on money, leverage, happiness, status, discipline, audience, business models, decision-making etc. The general format would be to take person A who broadcasts concept/item B and how to attain it by doing C. My goal would be to do C ruthlessly and to prescription in order to get B. If there’s an experiment you’d like to see tested, share it or like a comment that does.
 
