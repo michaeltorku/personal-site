@@ -1,139 +1,87 @@
-export type TasteBudsMealContext =
-  | 'Breakfast'
-  | 'Lunch'
-  | 'Dinner'
-  | 'Late Night'
-  | 'Dessert'
-  | 'Casual'
-  | 'Date Night'
-  | 'Group Hang';
-
-export interface TasteBudsSpot {
+export interface TasteBudsRankingItem {
+  rank: number;
   name: string;
   cuisine: string;
-  branch?: string;
   location?: string;
-  blindRank?: number;
-  cuisineRank?: number;
-  contextRank?: number;
-  context: TasteBudsMealContext;
-  notes: string;
-  whyItWorks: string;
+  branch?: string;
+  note: string;
+  verdict: string;
 }
 
-export interface TasteBudsRankingGroup {
+export interface TasteBudsRankingColumn {
   title: string;
   description: string;
-  items: TasteBudsSpot[];
+  items: TasteBudsRankingItem[];
 }
 
 export const tasteBudsIntro = {
   title: 'Taste Buds',
-  description:
-    'A food project about sitting down with friends, enjoying meals, discussing them honestly, and ranking what stands out across cuisine, blind taste, and the moment around the meal.',
-  manifesto:
-    'Taste Buds is part food journal, part ranking system, and part conversation log. The goal is not just to say what is good, but to understand why it feels good, who it is good with, and how the experience changes by context.'
+  subtitle:
+    'A food show about the meals worth leaving the house for.',
+  thesis:
+    'Just a guy and his tastebuds.',
+  quoteOne: 'There’s no right or wrong when it comes to food.',
+  quoteTwo: ''
 };
 
-export const tasteBudsRankingGroups: TasteBudsRankingGroup[] = [
+export const tasteBudsBreakfastBrunchRanking: TasteBudsRankingItem[] = [
   {
-    title: 'Cuisine Rankings',
-    description:
-      'These answer the question: what is the best version of this cuisine we have had?',
-    items: [
-      {
-        name: 'Kokos',
-        cuisine: 'Ghanaian',
-        branch: 'Brooklyn',
-        location: 'New York, NY',
-        cuisineRank: 1,
-        context: 'Group Hang',
-        notes: 'Sharp seasoning, familiar flavors, and the kind of meal that keeps the table talking.',
-        whyItWorks: 'Feels culturally specific without being heavy-handed.'
-      },
-      {
-        name: 'Nobu',
-        cuisine: 'Japanese',
-        branch: 'Downtown',
-        location: 'New York, NY',
-        cuisineRank: 1,
-        context: 'Date Night',
-        notes: 'Clean presentation and a precise, expensive kind of calm.',
-        whyItWorks: 'High confidence in technique and plating.'
-      },
-      {
-        name: 'Jollof House',
-        cuisine: 'West African',
-        branch: 'Queens',
-        location: 'New York, NY',
-        cuisineRank: 1,
-        context: 'Casual',
-        notes: 'Comfort-food energy with enough smoke and spice to keep it interesting.',
-        whyItWorks: 'Good benchmark for a familiar meal done well.'
-      }
-    ]
+    rank: 1,
+    name: 'Breakfast Burrito',
+    cuisine: 'Mexican-American',
+    note: 'Portable, filling, and forgiving when you want a strong start.',
+    verdict: 'Taste Buds Certified'
   },
   {
-    title: 'Blind Rankings',
-    description:
-      'These are taste-first rankings. The venue matters less than the plate.',
-    items: [
-      {
-        name: 'Crispy Chicken Sandwich',
-        cuisine: 'American',
-        blindRank: 1,
-        context: 'Lunch',
-        notes: 'Crunch, heat, and balance can carry a lot here.',
-        whyItWorks: 'Easy to compare directly across places.'
-      },
-      {
-        name: 'Jollof Rice Plate',
-        cuisine: 'West African',
-        blindRank: 2,
-        context: 'Dinner',
-        notes: 'The rice, sauce, spice, and protein have to work together.',
-        whyItWorks: 'Strong baseline for evaluating flavor and texture.'
-      },
-      {
-        name: 'Chocolate Cake',
-        cuisine: 'Dessert',
-        blindRank: 3,
-        context: 'Dessert',
-        notes: 'Moisture, sweetness, and richness decide everything.',
-        whyItWorks: 'Good for separating average from memorable desserts.'
-      }
-    ]
+    rank: 2,
+    name: 'Chocolate Cake',
+    cuisine: 'Dessert',
+    note: 'Moisture, sweetness, and richness decide everything.',
+    verdict: 'No Umph Detected'
   },
   {
-    title: 'Meal Context Rankings',
-    description:
-      'These answer the question: what is the best food for this moment?',
-    items: [
-      {
-        name: 'Breakfast Burrito',
-        cuisine: 'Mexican-American',
-        context: 'Breakfast',
-        contextRank: 1,
-        notes: 'Portable, filling, and forgiving when you want a strong start.',
-        whyItWorks: 'Great when the goal is energy and convenience.'
-      },
-      {
-        name: 'Late-Night Ramen',
-        cuisine: 'Japanese',
-        context: 'Late Night',
-        contextRank: 1,
-        notes: 'Warm, salty, restorative, and slightly indulgent.',
-        whyItWorks: 'Perfect for the mood as much as the food.'
-      },
-      {
-        name: 'Small Plates and Shared Apps',
-        cuisine: 'Modern',
-        context: 'Group Hang',
-        contextRank: 1,
-        notes: 'Lets the table share, compare, and keep the conversation moving.',
-        whyItWorks: 'Best for a social food experience.'
-      }
-    ]
+    rank: 3,
+    name: 'Crispy Chicken Sandwich',
+    cuisine: 'American',
+    note: 'Crunch, heat, and balance can carry a lot here.',
+    verdict: 'Taste Buds Certified'
   }
 ];
 
+export const tasteBudsLunchDinnerRanking: TasteBudsRankingItem[] = [
+  {
+    rank: 1,
+    name: 'Tatiana',
+    cuisine: 'Dinner',
+    note: 'Big-room energy with enough polish to feel like an occasion.',
+    verdict: 'Taste Buds Certified'
+  },
+  {
+    rank: 2,
+    name: 'Wayan',
+    cuisine: 'Lunch / Dinner',
+    note: 'Bright, layered, and exactly the kind of spot that rewards a longer meal.',
+    verdict: 'Taste Buds Certified'
+  },
+  {
+    rank: 3,
+    name: 'Jiang’s',
+    cuisine: 'Dinner',
+    note: 'A strong middle-of-the-table contender that can win on comfort and consistency.',
+    verdict: 'Taste Buds Trial'
+  },
+  {
+    rank: 4,
+    name: 'Lele',
+    cuisine: 'Lunch / Dinner',
+    note: 'A place that feels built for sharing, trading bites, and rethinking your order.',
+    verdict: 'Split Decision'
+  },
+  {
+    rank: 5,
+    name: 'Momofuku',
+    cuisine: 'Lunch / Dinner',
+    note: 'Reliable enough to stay in the conversation, strong enough to justify the return trip.',
+    verdict: 'Receipt Check'
+  }
+];
